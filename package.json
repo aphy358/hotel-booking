@@ -9,7 +9,8 @@
     "axios": "^0.18.0",
     "react-redux": "^7.0.3",
     "react-router-dom": "^5.0.0",
-    "react-router-redux": "^4.0.8"
+    "react-router-redux": "^4.0.8",
+    "typesafe-actions": "^4.2.1"
   },
   "dependencies": {
     "@babel/core": "7.4.3",
