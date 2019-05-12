@@ -6,17 +6,17 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import { Provider } from 'react-redux'
-import { Router } from 'react-router'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import store from './store'
 import routes from './routes'
 
 
-import Home from './routes/Home';
+import Counter from './routes/Counter/components/CounterView';
 
 
 ReactDOM.render(
   <Provider store={ store }>
-    <Home />
+    <Router routes={ routes } />
   </Provider>, 
   document.getElementById('root')
 );
